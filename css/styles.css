@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.hover-cursor-pointer:hover {
+    cursor: pointer;
+}
+
+
+.carousel-item {
+    max-width: 1500px;
+}
+
+.carousel-item img {
+    min-width: 100vh;
+    object-fit: cover;
+    height: auto;
+}
+
+.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+
+/* --------------- card utility classes */
+.bg-cbd5e1 {
+    background-color: #cbd5e1;
+}
+
+.scroll-margin-8 {
+    scroll-margin-top: 8rem;
+}
+
+.auto-width {
+    width: min(100%, 350px);
+}
+
+.my-card {
+
+    scroll-margin-top: 8rem;
+    width: min(100%, 350px);
+    /* background-color: #cbd5e1; */
+    border: 2px solid #000;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
